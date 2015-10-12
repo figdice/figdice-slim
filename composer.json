@@ -4,7 +4,7 @@
   "version": "3.0.0",
   "description": "Slim Framework 3 view helper built on top of the FigDice templating component",
   "keywords": ["slim","framework","view","template","figdice"],
-  "homepage": "http://slimframework.com",
+  "homepage": "http://figdice.org",
   "license": "MIT",
   "authors": [
     {
