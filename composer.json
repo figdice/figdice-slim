@@ -1,0 +1,25 @@
+{
+  "name": "figdice/slim-view",
+  "type": "library",
+  "description": "Slim Framework 3 view helper built on top of the FigDice templating component",
+  "keywords": ["slim","framework","view","template","figdice"],
+  "homepage": "http://slimframework.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gabriel Zerbib",
+      "email": "gabriel@figdice.org",
+      "homepage": "http://figdice.org"
+    }
+  ],
+  "require": {
+    "slim/slim": "^3.0-dev",
+    "php": ">=5.3.0",
+    "figdice/figdice": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "figdice\\slim\\": "src"
+    }
+  }
+}
