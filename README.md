@@ -5,6 +5,15 @@ Container (DI) View component for the [Slim Framework 3](http://www.slimframewor
 
 Read [Slim Views](http://www.slimframework.com/docs/features/templates.html) Documentation for more details.
 
+## Installation
+
+In composer.json:
+~~~~javascript
+"require": {
+  "figdice/slim-view": "*"
+}
+~~~~
+
 ## Usage
 
 ### 1. Register FigDice SlimView component in Slim container
