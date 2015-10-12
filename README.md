@@ -14,15 +14,15 @@ $container = new \Slim\Container;
 
 // Register component on container
 $container['view'] = function ($c) {
-  $view = new \figdice\slim\SlimView('path/to/templates');
+  $slimview = new \figdice\slim\SlimView('path/to/templates');
   
   // Optionally configure FigDice View settings
   // (cache directory, dictionaries, feed & function factories, etc.)
-  $view->getView()->setTempPath('path/to/cache');
-  $view->getView()->registerFeedFactory( new MyFeedFactory(...) );
+  $slimview->getView()->setTempPath('path/to/cache');
+  $slimview->getView()->registerFeedFactory( new MyFeedFactory(...) );
   // ...
   
-  return $view;
+  return $slimview;
 };
 ~~~~
 
