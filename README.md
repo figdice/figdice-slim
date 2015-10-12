@@ -1,5 +1,5 @@
 # figdice-slim
-*Slim Framework Delegate for FigDice View*
+*Slim Framework 3 Delegate for FigDice View*
 
 Container (DI) View component for the [Slim Framework 3](http://www.slimframework.com/), that wires FigDice Templating library into Slim.
 
