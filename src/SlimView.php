@@ -37,9 +37,7 @@ class SlimView
   public function render(ResponseInterface $response, $template, $data = [])
   {
     $this->view->loadFile(((null !== $this->templatesDir) ? $this->templatesDir.'/' : '') . $template);
-    foreach ($data as $key => $value) {
-      $this->view->mount($key, $value);
-    }
+    $this->view->mount('params', $data);
 
     $response->getBody()->write($this->view->render());
     return $response;
