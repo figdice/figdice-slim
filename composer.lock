@@ -1,0 +1,123 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c548ee03a56a2d145df37f799d3b772a",
+    "content-hash": "8f4e934a7cefa56ee925381eb25f6ebf",
+    "packages": [
+        {
+            "name": "figdice/figdice",
+            "version": "2.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gabrielzerbib/figdice.git",
+                "reference": "caa7e8f4ddd38100ccc3ca26267eef44ba12d7e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gabrielzerbib/figdice/zipball/caa7e8f4ddd38100ccc3ca26267eef44ba12d7e1",
+                "reference": "caa7e8f4ddd38100ccc3ca26267eef44ba12d7e1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "v1.2.0",
+                "php": ">=5.4.0",
+                "phpunit/phpunit": "4.0.*",
+                "psr/log": "1.0.*@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "figdice": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gabriel Zerbib",
+                    "email": "gabriel@figdice.org",
+                    "homepage": "http://www.figdice.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Template Engine, XML-centric and attribute-driven",
+            "homepage": "http://www.figdice.org/",
+            "keywords": [
+                "html",
+                "presentation",
+                "template",
+                "templating",
+                "views",
+                "xml"
+            ],
+            "time": "2015-11-29 10:11:29"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2015-05-04 20:22:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

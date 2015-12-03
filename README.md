@@ -50,6 +50,3 @@ $app->get('/hello/{name}', function ($request, $response, $args) {
 // Run app
 $app->run();
 ~~~~
-
-Note that the Data array passed in Slim render function, is made available to your FigDice template
-through the `/params` mounting point.
